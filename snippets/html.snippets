@@ -2,6 +2,9 @@
 # Non-Breaking Space
 snippet nbs
 	&nbsp;
+# thin space
+snippet tsp
+	&thinsp;
 # ←
 snippet left
 	&#x2190;
@@ -48,53 +51,8 @@ snippet backspace
 snippet escape
 	&#x238B;
 # Generic Doctype
-snippet doctype HTML 4.01 Strict
-	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-	"http://www.w3.org/TR/html4/strict.dtd">
-snippet doctype HTML 4.01 Transitional
-	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-	"http://www.w3.org/TR/html4/loose.dtd">
-snippet doctype HTML 5
-	<!DOCTYPE HTML>
-snippet doctype XHTML 1.0 Frameset
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-snippet doctype XHTML 1.0 Strict
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-snippet doctype XHTML 1.0 Transitional
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-snippet doctype XHTML 1.1
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-# HTML Doctype 4.01 Strict
-snippet docts
-	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-	"http://www.w3.org/TR/html4/strict.dtd">
-# HTML Doctype 4.01 Transitional
 snippet doct
-	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-	"http://www.w3.org/TR/html4/loose.dtd">
-# HTML Doctype 5
-snippet doct5
-	<!DOCTYPE HTML>
-# XHTML Doctype 1.0 Frameset
-snippet docxf
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
-# XHTML Doctype 1.0 Strict
-snippet docxs
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# XHTML Doctype 1.0 Transitional
-snippet docxt
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-# XHTML Doctype 1.1
-snippet docx
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<!doctype html>
 snippet html
 	<html>
 	${1}
@@ -194,3 +152,21 @@ snippet par
 	<p class="${1}">
 	  ${2}
 	</p>
+snippet li
+	<li>${1}</li>${2}
+snippet td
+	<td>${1}</td>${2}
+snippet tr
+	<tr>${1}</tr>${2}
+snippet cod
+	<code>${1}</code>${2}
+snippet zb
+	z.&thinsp;B.
+snippet pre
+	<pre>${1}</pre>
+snippet ul
+	<ul>
+	  ${1}
+	</ul>
+snippet b
+	<b>${1}</b>${2}
